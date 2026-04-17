@@ -1,0 +1,213 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* TOP BLACK BAR */
+.topbar {
+    background: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    font-size: 14px;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* MAIN HEADER */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background: #f5f5f5;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* SUBSCRIBE BUTTON */
+.subscribe-btn {
+    background: #1e1e2f;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* LINE */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 0 60px;
+}
+
+/* HERO SECTION */
+.hero {
+    margin: 40px 60px;
+    background: #f1ece7;
+    padding: 60px;
+    border-radius: 4px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+/* TAG */
+.tag {
+    font-size: 12px;
+    background: #e6ded7;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* TITLE */
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #1a1a2e;
+}
+
+/* TEXT */
+.hero p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-primary {
+    background: #c0392b;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #333;
+}
+/* LATEST SECTION */
+.latest {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+.latest-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.latest-header h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+
+.latest-header a {
+    text-decoration: none;
+    color: #555;
+}
+
+/* CARDS LAYOUT */
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 25px;
+}
+
+/* CARD */
+.card {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* LARGE CARD */
+.card.large {
+    grid-row: span 1;
+}
+
+/* IMAGE BLOCKS */
+.card-image {
+    height: 180px;
+}
+
+.card.large .card-image {
+    height: 260px;
+}
+
+/* COLORS (match screenshot) */
+.brown {
+    background: #c7a883;
+}
+
+.blue {
+    background: #8aa4bf;
+}
+
+.green {
+    background: #a8c48c;
+}
+
+/* CONTENT */
+.card-content {
+    padding: 20px;
+}
+
+.category {
+    font-size: 12px;
+    color: #c0392b;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
